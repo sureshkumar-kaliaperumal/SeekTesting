@@ -30,6 +30,7 @@ public class TestSignOut {
 		objTestSeekRegister.setUp();*/
 		
 		try {	
+			//test comment
 			System.setProperty("webdriver.chrome.driver", geckoDriverPath);
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
