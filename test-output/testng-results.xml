@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Seek - Test - Suite" duration-ms="143785" started-at="2017-09-20T12:45:42Z" finished-at="2017-09-20T12:48:05Z">
+    <groups>
+    </groups>
+    <test name="Seek - Test" duration-ms="143785" started-at="2017-09-20T12:45:42Z" finished-at="2017-09-20T12:48:05Z">
+      <class name="com.test.seek.test.TestSeekRegister">
+        <test-method status="PASS" signature="testRegisterPage()[pri:0, instance:com.test.seek.test.TestSeekRegister@643b1d11]" name="testRegisterPage" duration-ms="3934" started-at="2017-09-20T22:47:41Z" finished-at="2017-09-20T22:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.seek.test.TestSeekRegister@643b1d11]" name="closeDriver" is-config="true" duration-ms="150" started-at="2017-09-20T22:47:45Z" finished-at="2017-09-20T22:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.seek.test.TestSeekRegister -->
+      <class name="com.test.seek.test.TestJobSearch">
+        <test-method status="PASS" signature="testJobSearchPage()[pri:0, instance:com.test.seek.test.TestJobSearch@6d00a15d]" name="testJobSearchPage" duration-ms="9633" started-at="2017-09-20T22:47:50Z" finished-at="2017-09-20T22:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearchPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.seek.test.TestJobSearch@6d00a15d]" name="closeDriver" is-config="true" duration-ms="2088" started-at="2017-09-20T22:48:00Z" finished-at="2017-09-20T22:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.seek.test.TestJobSearch -->
+      <class name="com.test.seek.test.TestSignOut">
+        <test-method status="PASS" signature="testSignInPage()[pri:0, instance:com.test.seek.test.TestSignOut@36d4b5c]" name="testSignInPage" duration-ms="1811" started-at="2017-09-20T22:47:49Z" finished-at="2017-09-20T22:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPage -->
+        <test-method status="PASS" signature="testSignOutPage()[pri:1, instance:com.test.seek.test.TestSignOut@36d4b5c]" name="testSignOutPage" duration-ms="3221" started-at="2017-09-20T22:48:02Z" finished-at="2017-09-20T22:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOutPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.seek.test.TestSignOut@36d4b5c]" name="closeDriver" is-config="true" duration-ms="1" started-at="2017-09-20T22:48:05Z" finished-at="2017-09-20T22:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.seek.test.TestSignOut -->
+      <class name="com.test.seek.test.TestSignIn">
+        <test-method status="PASS" signature="testSignInPage()[pri:0, instance:com.test.seek.test.TestSignIn@2ef5e5e3]" name="testSignInPage" duration-ms="3255" started-at="2017-09-20T22:47:45Z" finished-at="2017-09-20T22:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.seek.test.TestSignIn@2ef5e5e3]" name="closeDriver" is-config="true" duration-ms="155" started-at="2017-09-20T22:47:48Z" finished-at="2017-09-20T22:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.seek.test.TestSignIn -->
+      <class name="com.test.seek.test.TestDelSeekAccount">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.seek.test.TestDelSeekAccount@100fc185]" name="setUp" is-config="true" duration-ms="35227" started-at="2017-09-20T22:45:42Z" finished-at="2017-09-20T22:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.seek.test.TestJobSearch@6d00a15d]" name="setUp" is-config="true" duration-ms="33039" started-at="2017-09-20T22:46:17Z" finished-at="2017-09-20T22:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.seek.test.TestSeekRegister@643b1d11]" name="setUp" is-config="true" duration-ms="11791" started-at="2017-09-20T22:46:50Z" finished-at="2017-09-20T22:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.seek.test.TestSignIn@2ef5e5e3]" name="setUp" is-config="true" duration-ms="15869" started-at="2017-09-20T22:47:02Z" finished-at="2017-09-20T22:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.seek.test.TestSignOut@36d4b5c]" name="setUp" is-config="true" duration-ms="12636" started-at="2017-09-20T22:47:17Z" finished-at="2017-09-20T22:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDelSeekAccountPage()[pri:0, instance:com.test.seek.test.TestDelSeekAccount@100fc185]" name="testDelSeekAccountPage" duration-ms="10382" started-at="2017-09-20T22:47:30Z" finished-at="2017-09-20T22:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelSeekAccountPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.seek.test.TestDelSeekAccount@100fc185]" name="closeDriver" is-config="true" duration-ms="528" started-at="2017-09-20T22:47:41Z" finished-at="2017-09-20T22:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.seek.test.TestDelSeekAccount -->
+    </test> <!-- Seek - Test -->
+  </suite> <!-- Seek - Test - Suite -->
+</testng-results>

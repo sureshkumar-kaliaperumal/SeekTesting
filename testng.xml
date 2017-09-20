@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Seek - Test - Suite" configfailurepolicy="skip">
+<test name = "Seek - Test">
+<classes>
+<class name="com.test.seek.test.TestDelSeekAccount">
+</class>
+<class name="com.test.seek.test.TestSeekRegister">
+</class>
+<class name="com.test.seek.test.TestSignIn">
+</class>
+<class name="com.test.seek.test.TestSignOut">
+</class>
+<class name="com.test.seek.test.TestJobSearch">
+</class>
+</classes>
+</test>
+</suite>
